@@ -11,19 +11,13 @@
 
 
 从BAT高级面试题中提炼大纲。
-网络请求 + 安全模式 （safe model) + .ini
+网络请求 + 
 
 
 local files + (flock)
 
 
-获取网络内容的基本思路和原理。
-（提问，apple HLS实现原理）
 
-
-
-header原理。
-cookie + session (session id) 原理及其他实现方案。
 
 form token。
 session crack。
@@ -40,9 +34,7 @@ json + utf8
 
 sql inject + html xss crack
 
-GET+POST+SERVERS + other ?
 
-set_time_limit() + 60s + nginx exec timeout
 
 获取用户IP的原理。
 
@@ -56,10 +48,6 @@ PHP可以配置每次执行请求前执行某个文件。
 
 composer
 
-
-error_reporting的配置，error_log文件的位置。
-
-time + 时区问题。
 
 
 高级PHP都关注那些内容。
@@ -77,5 +65,4 @@ RAM speed > disk > network > database
 host a (local file, ram, service) ~~ network ~~ host b (local file, ram , service)
 
 
-google auth.
-google 验证码：https://36kr.com/p/217530.html
+

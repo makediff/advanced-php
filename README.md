@@ -14,24 +14,4 @@ PHP伴随我已经有10年了，也没有想过，自己会以怎样的方式来
 
 语言只是一个载体，我们可以关注解决问题的方法，亦或关注语言方面的技巧。PHP提倡的是，用最简单的方式，实现你想要的，用最为平常的方式，前提是用PHP该有的方式。我们做一件事情，首先要把事情简单化，直到不能再简单，从这个时候起，你就掌握了最佳实践。
 
-那么，就让我们进入主题吧，来探索一下什么才是最佳实践。
-
-
-
-- 01 从php解释器开始谈起
-- 02 环境变量、php.ini
-- 03 数字、字符串
-- 04 false / null / 0 / "" / array()
-- 05 数组（核心）（有序列，Hash的特点）
-- 06 序列化、反序列化
-- 编码
-- 时间
-- 类(magic method)
-- 文件操作(glob/stat, read big file, cvs~excel, sqlite3)、系统命令相关(exec)，主要是本地数据操作
-- socket、curl、网络相关，超时，数据操作（主要是网路数据操作）
-- rcp,jsonrcp,soap,xml,远程调用
-- Vim & Linux & shell
-- 架构
-- 编辑器和工具(sublime, vim, httpbin, postman, cherry? proxy, json tools, docker, oh-my-zsh,fzf,jq)
-- 同步和异步
-- 开发习惯养成
+那么，就一起来探索一下这门语言的最佳实践吧。
