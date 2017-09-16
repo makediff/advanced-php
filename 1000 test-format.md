@@ -1,6 +1,6 @@
 
 ## 代码
-```
+```php
 $is_need = strpos("I love php", "php")!==false;
 ```
 

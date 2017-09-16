@@ -18,17 +18,17 @@ PHP里没有对字符串的直接操作，全部都是通过函数来处理的�
 
 # 遍历字符串的黑科技
 
-```
+```php
 $a = "hello";
 $len = strlen($a);
-for ($i=0; $i<$len; $i++){
+foreach(range(0, $len) as $i){
     echo $a{$i}, "#";
 }
 ```
 
 有了上面的方法，我们就比较容易做这样的事情，比如判断是否以`#`开头。
 
-```
+```php
 $line = "# this is a comment";
 if ($line{0} == '#'){
     echo "YES";
@@ -37,5 +37,7 @@ if ($line{0} == '#'){
 
 当然，我们是不能做赋值操作的。`$line{0}='A';`
 
+
+PHP中没有类似其他语言的`startswith`和`endswith`，所以常用的解决方法是`strlen`加`substr`来解决。
 
 # 请思考如下问题
